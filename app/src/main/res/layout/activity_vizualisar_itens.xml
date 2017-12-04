@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imagemItem"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nomeItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome do Alimento"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/valorItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:text="Preço do Alimento"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/descricaoItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descrição Produto"
+            android:layout_marginLeft="5dp"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
